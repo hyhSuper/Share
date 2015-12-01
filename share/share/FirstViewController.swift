@@ -13,11 +13,9 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var firstNavBar: UINavigationBar!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-//        self.title = "Share"
-        
-        // Do any additional setup after loading the view, typically from a nib.
+//        let imageView = UIImageView.init(frame:CGRectMake(0, 0,self.firstNavBar.frame.width,64));
+//        let image = UIImage(named:"bar")
+//        imageView.image = image
     }
 
     override func didReceiveMemoryWarning() {
